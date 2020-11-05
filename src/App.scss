@@ -7,12 +7,13 @@ $text-color: white;
 
   ul {
     width: 100%;
-    height: auto;
+    height: 120px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     background: $navbar;
     display: flex;
+    justify-content: flex-end;
   }
   li {
     margin: 10px;
@@ -20,13 +21,20 @@ $text-color: white;
     text-align: center;
   }
   .navbar-title {
+    text-decoration: none;
     color: $text-color;
     margin: 0 auto;
-    margin-left: 30px;
-    text-align: center;
+    margin-right: 310px;
     font-family: "Open Sans", sans-serif;
     font-size: 120%;
     font-weight: 800;
+    text-align: left;
+    position: relative;
+    bottom: 15px;
+
+    :hover:before {
+      all: initial;
+    }
   }
   .nav-link {
     text-decoration: none;
@@ -58,11 +66,31 @@ $text-color: white;
   }
 
   img.programming-image {
+    position: relative;
     width: 100%;
     height: auto;
-    background-position: center;
+    background-position: cover;
     background-size: cover;
     top: 0;
     left: 0;
+    opacity: 3;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .about-description {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      text-align: center;
+      color: $text-color;
+      position: absolute;
+      bottom: 500px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
 }

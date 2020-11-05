@@ -16,9 +16,11 @@ function App() {
       <Router>
         <nav className="navbar">
           <ul className="navbar-nav">
-            <div className="navbar-title">
+            <div>
               <li>
-                <h2>Vedran Brodar </h2>
+                <Link to={"/"} className="navbar-title">
+                  <h2>Vedran Brodar </h2>
+                </Link>
               </li>
             </div>
             <li>
