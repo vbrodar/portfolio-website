@@ -71,10 +71,7 @@ $text-color: white;
     height: auto;
     background-position: cover;
     background-size: cover;
-    top: 0;
-    left: 0;
-    opacity: 3;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-color: rgba(0, 0, 0, 0.2);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -92,5 +89,23 @@ $text-color: white;
       left: 50%;
       transform: translate(-50%, -50%);
     }
+  }
+  .home-description {
+    // Used for text written in Home.js
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+    font-family: sans-serif;
+    color: $text-color;
+    font-family: "Gentium Book Basic", serif;
+    font-weight: 400;
+  }
+  .bolder-words {
+    // Class with purpose to bold words in text
+    font-weight: 800;
   }
 }

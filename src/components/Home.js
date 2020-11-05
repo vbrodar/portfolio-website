@@ -7,6 +7,9 @@ class Home extends Component {
           className="programming-image"
           src={process.env.PUBLIC_URL + "/assets/programming.jpg"}
         />
+        <h2 className="home-description">
+          Hello, i am <b className="bolder-words"> Vedran</b> welcome to my site
+        </h2>
       </div>
     );
   }
