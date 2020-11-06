@@ -1,11 +1,16 @@
 .App {
-  text-align: center;
   font-size: calc(1em + 1vmin);
+  white-space: pre-line;
+  vertical-align: bottom;
+  -webkit-text-size-adjust: auto;
+     -moz-text-size-adjust: auto;
+      -ms-text-size-adjust: auto;
+          text-size-adjust: auto;
 }
 
 .App ul {
   width: 100%;
-  height: 120px;
+  height: 125px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -62,7 +67,7 @@
   bottom: 25%;
   left: 0;
   top: 50;
-  background-color: #fff;
+  background-color: #003366;
   visibility: hidden;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -75,12 +80,13 @@
 
 .App img.programming-image {
   position: relative;
-  width: 100%;
+  width: 130%;
   height: auto;
   background-position: cover;
+  background-size: 100%;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.2);
-  background-size: cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 .App img.programming-image .about-description {
@@ -99,9 +105,11 @@
 }
 
 .App .home-description {
+  text-align: center;
+  font-size: 50px;
   position: absolute;
-  top: 50%;
-  left: 25%;
+  top: 85%;
+  left: 5%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 2;
@@ -109,9 +117,32 @@
   color: white;
   font-family: "Gentium Book Basic", serif;
   font-weight: 400;
+  font-size: 5vw;
+}
+
+.App .gradient-description {
+  text-align: center;
+  font-size: 60px;
+  background: #003366;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .App .bolder-words {
   font-weight: 800;
+}
+
+.App .symbols {
+  color: #003366;
+}
+
+.App .technologies-description {
+  font-size: 70px;
+  bottom: 150px;
+}
+
+.App .home-avatar {
+  width: 200px;
+  height: 200px;
 }
 /*# sourceMappingURL=App.css.map */

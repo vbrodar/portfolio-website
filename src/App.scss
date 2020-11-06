@@ -2,12 +2,14 @@ $navbar: black;
 $text-color: white;
 
 .App {
-  text-align: center;
   font-size: calc(1em + 1vmin);
+  white-space: pre-line;
+  vertical-align: bottom;
+  text-size-adjust: auto;
 
   ul {
     width: 100%;
-    height: 120px;
+    height: 125px; // Needs to be between 120 and 130px to show Vedran Brodar title on navbar
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -55,7 +57,7 @@ $text-color: white;
       bottom: 25%; // Underline effect position adjusted
       left: 0;
       top: 50;
-      background-color: #fff;
+      background-color: #003366;
       visibility: hidden;
       transition: all 0.4s ease-in-out;
     }
@@ -67,15 +69,15 @@ $text-color: white;
 
   img.programming-image {
     position: relative;
-    width: 100%;
+    width: 130%;
     height: auto;
     background-position: cover;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     .about-description {
       width: 100%;
       height: 100%;
@@ -92,9 +94,11 @@ $text-color: white;
   }
   .home-description {
     // Used for text written in Home.js
+    text-align: center;
+    font-size: 50px;
     position: absolute;
-    top: 50%;
-    left: 25%;
+    top: 85%;
+    left: 5%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -103,9 +107,28 @@ $text-color: white;
     color: $text-color;
     font-family: "Gentium Book Basic", serif;
     font-weight: 400;
+    font-size: 5vw;
+  }
+  .gradient-description {
+    text-align: center;
+    font-size: 60px;
+    background: #003366;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .bolder-words {
-    // Class with purpose to bold words in text
+    // Class selector with purpose to bold words in text
     font-weight: 800;
+  }
+  .symbols {
+    color: #003366;
+  }
+  .technologies-description {
+    font-size: 70px;
+    bottom: 150px;
+  }
+  .home-avatar {
+    width: 200px;
+    height: 200px;
   }
 }
