@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 class Home extends Component {
   render() {
     return (
@@ -17,12 +18,18 @@ class Home extends Component {
             className="home-avatar"
             src={process.env.PUBLIC_URL + "/assets/avatar.png"}
           />
-          <h2 className="gradient-description">{"{ Frontend developer }"}</h2>
+          <h2 className="gradient-description">{"< Frontend developer />"}</h2>
           <h2 className="technologies-description">
             HTML <b className="symbols">.</b> CSS(Sass)
-            <b className="symbols">.</b> Javascript <b className="symbols">.</b>{" "}
-            React{" "}
+            <b className="symbols">.</b> Javascript{" "}
+            <b className="symbols">. </b>
+            React
           </h2>
+          <footer>
+            <i class="fab fa-github-square"></i>
+            <i class="fab fa-gitlab"></i>
+            <i class="fab fa-facebook-square"></i>
+          </footer>
         </h2>
       </div>
     );
