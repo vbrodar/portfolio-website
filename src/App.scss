@@ -9,7 +9,7 @@ $text-color: white;
 
   ul {
     width: 100%;
-    height: 125px; // Needs to be between 120 and 130px to show Vedran Brodar title on navbar
+    height: 150px; // Needs to be between 120 and 130px to show Vedran Brodar title on navbar
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,16 +27,16 @@ $text-color: white;
     text-decoration: none;
     color: $text-color;
     margin: 0 auto;
-    margin-right: 310px;
+    margin-right: 600px;
     font-family: "Open Sans", sans-serif;
     font-size: 120%;
     font-weight: 800;
-    text-align: left;
+    text-align: center;
     position: relative;
     bottom: 15px;
 
     :hover:before {
-      all: initial;
+      visibility: hidden;
     }
   }
   .nav-link {
@@ -66,6 +66,7 @@ $text-color: white;
       visibility: visible;
       width: 100%;
     }
+
     i {
       visibility: visible;
       font-size: 10px;
@@ -74,11 +75,11 @@ $text-color: white;
   }
 
   img.programming-image {
-    position: relative;
     width: 100%;
-    height: 950px;
+    height: 1100px;
+    overflow: auto;
     background-position: center top;
-    background-size: 100%;
+    background-size: cover;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
     .about-description {
       width: 100%;
@@ -99,8 +100,8 @@ $text-color: white;
     text-align: center;
     font-size: 50px;
     position: absolute;
-    top: 560px;
-    left: 90px;
+    top: 640px;
+    left: 100px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -135,10 +136,13 @@ $text-color: white;
   .home-avatar {
     width: 200px;
     height: 200px;
+    max-width: 100%;
+    height: auto;
   }
   footer {
-    width: 782px;
-    height: 15%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -148,9 +152,9 @@ $text-color: white;
     margin-top: 150px;
     position: relative;
     justify-content: space-around;
-    bottom: 25px;
-    margin-left: 135px;
-    font-size: 50px;
+    bottom: 15px;
+    font-size: 60px;
     color: #003366;
+    max-width: 100%;
   }
 }

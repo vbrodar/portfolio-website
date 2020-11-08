@@ -26,7 +26,7 @@ class Home extends Component {
             React
           </h2>
           <footer>
-            <i class="fab fa-github-square"></i>
+            <i class="fab fa-github"></i>
             <i class="fab fa-gitlab"></i>
             <i class="fab fa-facebook-square"></i>
           </footer>
