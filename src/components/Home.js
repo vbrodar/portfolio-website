@@ -26,9 +26,27 @@ class Home extends Component {
             React
           </h2>
           <footer>
-            <i class="fab fa-github"></i>
-            <i class="fab fa-gitlab"></i>
-            <i class="fab fa-facebook-square"></i>
+            <a
+              href="https://github.com/vbrodar"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i className="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://gitlab.com/vbrodar"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i class="fab fa-gitlab" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/thewaywardone"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
           </footer>
         </h2>
       </div>

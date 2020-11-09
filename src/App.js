@@ -5,7 +5,6 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
             <div>
               <li>
                 <Link to={"/"} className="navbar-title">
-                  <h2>Vedran Brodar </h2>
+                  <h2>Vedran Brodar</h2>
                 </Link>
               </li>
             </div>
