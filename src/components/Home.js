@@ -25,7 +25,7 @@ class Home extends Component {
             <b className="symbols">. </b>
             React
           </h2>
-          <footer>
+          <div>
             <a
               href="https://github.com/vbrodar"
               rel="noopener noreferrer"
@@ -47,7 +47,7 @@ class Home extends Component {
             >
               <i class="fab fa-facebook" aria-hidden="true"></i>
             </a>
-          </footer>
+          </div>
         </h2>
       </div>
     );
