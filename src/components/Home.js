@@ -21,7 +21,7 @@ class Home extends Component {
           <h2 className="gradient-description">{"< Frontend developer />"}</h2>
           <h2 className="technologies-description">
             HTML <b className="symbols">.</b> CSS(Sass)
-            <b className="symbols">.</b> Javascript{" "}
+            <b className="symbols"> .</b> Javascript{" "}
             <b className="symbols">. </b>
             React
           </h2>

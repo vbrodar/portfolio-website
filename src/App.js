@@ -14,15 +14,15 @@ function App() {
         content="width=device-width, initial-scale=1.0"
       ></meta>
       <Router>
-        <nav className="navbar">
-          <ul className="navbar-nav">
-            <div>
-              <li>
-                <Link to={"/"} className="navbar-title">
-                  <h2>Vedran Brodar</h2>
-                </Link>
-              </li>
-            </div>
+        <nav>
+          <div>
+            <li>
+              <Link to={"/"} className="navbar-title">
+                <h2>Vedran Brodar</h2>
+              </Link>
+            </li>
+          </div>
+          <ul>
             <li>
               <Link to={"/"} className="nav-link">
                 <h2>Home</h2>
