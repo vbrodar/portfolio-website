@@ -7,6 +7,7 @@ class Home extends Component {
         <img
           className="programming-image"
           src={process.env.PUBLIC_URL + "/assets/space.jpg"}
+          alt="Space..."
         />
         <h2 className="home-description">
           Hello<b className="symbols">;</b> {"\n"} I am
