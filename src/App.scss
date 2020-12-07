@@ -15,6 +15,10 @@ $text-color: white;
     min-height: 2vh;
     background-color: $navbar;
     height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
 
     @media only screen and (max-width: 1200px) {
       font-size: 2vh;
